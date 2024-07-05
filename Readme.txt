@@ -1,13 +1,18 @@
+**Database Name: project**
+
+**Recommended : PHP Version 5/7/8 , Wampp or Xampp Server**
+
+
 
 Database Configuration
 
 Open phpmyadmin
-Create Database tms
-Import database tms.sql (available inside zip package)
-Open Your browser put inside browser ìhttp://localhost/projectî
+Create Database project
+Import database DB.sql (available inside zip package)
+Open Your browser put inside browser ‚Äúhttp://localhost/project‚Äù
 
 Login Details for admin : 
-Open Your browser put inside browser ìhttp://localhost/job/adminî
+Open Your browser put inside browser ‚Äúhttp://localhost/job/admin‚Äù
 Username : admin
 Password : Test@123
 
