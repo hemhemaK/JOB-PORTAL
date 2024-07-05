@@ -1,0 +1,263 @@
+
+html,
+body {
+  background: #f0f2f0;
+  background-size: cover;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"],li.parallelogram{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+}	
+p{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+/*-- top-header --*/
+.logo a {
+    letter-spacing: 1px;
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+i.fa.fa-home {
+    font-size: 24px;
+}
+.top-header {
+    background:#000066;
+    border-bottom: 0 none;
+	height: 46px;
+    line-height: 35px;
+}
+ul.tp-hd-lft{
+    float: left;
+}
+ul.tp-hd-lft li {
+    display: inline-block;
+	margin-top:10px;
+}
+ul.tp-hd-lft a {
+    font-size: 16px;
+    font-weight: 600;
+	color:#fff;
+}
+ul.tp-hd-rgt{
+    float:right;
+}
+ul.tp-hd-rgt li {
+	margin-top:10px;
+    display: inline-block;
+	font-size: 16px;
+    font-weight: 600;
+	color:#fff;
+}
+ul.tp-hd-rgt  a {
+    font-size: 16px;
+    font-weight: 600;
+	color: #000066;
+}
+li.ned,li.wrt,li.tol{
+    margin-right: 12px;
+}
+/*-- /top-header --*/
+/*-- header --*/
+.collapse-navbar-collapse-nav-wil ul{
+	background:#000066;
+	margin:-85px;
+	width:114.5%;
+	padding: 0px 0 8px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.collapse-navbar-collapse-nav-wil li{
+	font-size:18px;
+    font-weight: 600;
+	margin-left:70px;
+}
+.header {
+    background-color:#fff;
+    margin: 5px;
+	padding: 10px 0 8px;
+}
+.logo a {
+    display: block;
+}
+.logo {
+    float: left;
+	 margin-right: 60px;
+}
+/*-- /header --*/
+
+/*------apply button-------*/
+a.view {
+    padding: 6px 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000066;
+    border: 0;
+    font-size: 15px;
+    border-radius: 2px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    margin-top: 20px;
+    display: inline-block;
+}
+a.view:hover{
+	background:skyblue;
+}
+/*------apply button-------*/
+
+/*-- job details --*/
+
+.rooms-top {
+    background: url(../images/7.jpg)no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 390px;
+    padding: 8em 0 0;
+}
+.rom-btm {
+	background-image:linear-gradient(#fff,#9999ff,#fff);
+    margin-top: 2em;
+	box-shadow: 0px 0px 15px -1px rgba(0,0,0);
+}
+.rom-btm:hover {
+	background-image:linear-gradient(white,#9999ff);
+}
+.room-bottom {
+    padding: 2em 0;
+}
+.rom-btm h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #000066;
+}
+.rom-btm p {
+    font-size: 15px;
+    color: black;
+}
+.rom-btm h6 {
+    font-size: 1em;
+    font-weight: 800;
+    margin: 0.5em 0;
+}
+.room-right {
+    text-align: right;
+    padding: 3em 2em;
+}
+.room-midle {
+    padding: 1em;
+}
+.rom-btm h5 {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #000066;
+}
+/*-- job details --*/
+/*-- banner --*/
+.ban-top .inputLabel,.ban-bottom  .inputLabel {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+	color: #191919;
+}
+.bann-info1 {
+    padding: 8em 5em 0em;
+    text-align: center;
+}
+.bnr-right {
+    float: left;
+	width:50%;
+}
+/*-- /banner --*/
+/*-- jobs --*/
+.banner-3 h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    padding: 1.5em 0 0;
+    text-align: center;
+    color: #000066;
+}
+/*-- /jobs --*/
+.selectroom_top {
+    padding: 2em;
+    box-shadow: 0px 0px 20px -4px #000;
+    margin-bottom: 2em;
+}
+.selectroom_right li {
+    display: inline-block;
+    float: left;
+    width: 21%;
+}
+.grand {
+    text-align: right;
+}
+.selectroom_right h2 {
+	font-size: 1.7em;
+    color: #000066;
+    font-weight: 600;
+    margin: 0;
+}
+
+.selectroom_right p {
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: 300;
+    color: #000;
+}
+.selectroom_right ul {
+    margin-top: 1em;
+}
+.selectroom_right span {
+    font-weight: 700;
+}
+.selectroom-info li {
+    display: inline-block;
+    float: left;
+}
+
+.selectroom input[type="text"] {
+    width: 92%;
+    color: #000066;
+    outline: none;
+    font-size: 16px;
+    padding: 10px 0px;
+    border: none;
+    border-bottom:1px solid rgba(0,0,0,.12);
+    -webkit-appearance: none;
+    margin-top: 10px;
+}
+.selectroom-info ul {
+    margin-top: 3em;
+}
+li.spe {
+    width: 100%;
+    margin-top: 3em;
+}
+li.spe  input[type="text"] {
+    width: 100%;
+}
+/*-- /write --*/
+

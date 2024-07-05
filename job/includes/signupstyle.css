@@ -1,0 +1,113 @@
+
+body {
+  background: #f0f2f0;
+  background: -webkit-linear-gradient(to bottom, #000c40, #f0f2f0);
+  background: linear-gradient(to bottom,#000066, #f0f2f0);
+  background-size: cover;
+}
+.register-left li a{
+  color: #fff;
+  text-decoration:none;
+  margin-left:1200px;
+  font-size:20px;
+}
+.register-left img {
+  float:left;
+  margin-left:150px;
+  margin-top: 17%;
+  margin-bottom: 5%;
+  width: 15%;
+  height: 25%;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+/*-- sign up --*/
+.login-right{
+	float:right;
+	width:51%;
+	display:inline-box;
+    border: 3px solid #E6E4E4;
+    padding: 2%;
+    background: #f8f9fa;
+    border-top-left-radius: 10% 20%;
+    border-bottom-left-radius: 10% 100%;
+	margin-top:10%;
+}
+.login-right h3{
+    color: #000066;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.login-left {
+    float: left;
+    width: 42%;
+}
+.login-right input[type="text"] ,.login-right input[type="password"] {
+    width: 35%;
+    padding: 10px;
+	border-radius:10px;
+    font-weight:600;
+    background: none;
+    border: 2px solid #E6E4E4;
+    color: 	 #000000;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.login-right h4{
+	color:#48cfc1;
+	font-size:12px;
+	margin:20px 0;
+}
+.login-right h4 a{
+	color:#4CB320;
+	text-decoration:none;
+}
+.login-right h4 a:hover{
+	color:#A9A8A8;
+}
+.login-grids p a {
+	color:#4CB320;
+}
+.login-right input[type="submit"] {
+  background:#000066;
+  color: #fff;
+  border-radius:10px;
+  font-size: 12px;
+  border: none;
+  width: 20%;
+  -webkit-appearance:none;
+  padding: 10px 15px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+ margin-top:40px;
+ float:right;
+}
+.login-right input[type="submit"]:hover {
+	background:green;
+}
+.login-grids p {
+    font-size: 12px;
+    margin-top: 25px;
+	color:#A9A8A8;
+}
+
